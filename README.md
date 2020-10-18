@@ -14,6 +14,7 @@ The two modes, easy and hard, differentiate in the way, the results are shown. I
 The game was written with C++ and Qt. The play mode (hard/easy) can be selected in the upper dropdown box.
 
 ![screenshot mastermind](screenshots/mastermind_easy.png)
+
 ![screenshot mastermind](screenshots/mastermind_hard.png)
 
 ## Building the project
