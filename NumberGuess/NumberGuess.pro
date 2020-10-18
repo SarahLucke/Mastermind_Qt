@@ -24,10 +24,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        main.cpp \
-        window.cpp \
-    logic.cpp
+        src/main.cpp \
+        src/window.cpp \
+    src/logic.cpp
 
 HEADERS += \
-        window.h \
-    logic.h
+        src/window.h \
+    src/logic.h
