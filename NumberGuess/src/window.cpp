@@ -32,6 +32,7 @@ Window::Window(QWidget *parent)
         inputLayout.addWidget(inputs[i], row, i);
     inputLayout.addWidget(submitButton,row++,NUMBER_COUNT);
 
+    inputLayout.setSizeConstraint(QLayout::SetFixedSize);
 
     // set layout to this window:
     this->setLayout(&inputLayout);
