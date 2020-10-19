@@ -20,15 +20,14 @@ The game was written with C++ and Qt. The play mode (hard/easy) can be selected 
 ## Building the project
 In Qt Creator, open the project file `src/NumberGuess.pro` or build the game from commandline:
 ```bash
-$ sudo apt-get update
-$ sudo apt-get install build-essential
-$ sudo apt-get install qtcreator
+sudo apt-get install qt5-default
 cd NumberGuess/
 mkdir bin
 cd bin/
 qmake ../NumberGuess.pro
 make && make clean
-./NumberGuess```
+./NumberGuess
+```
 
 ## License
 [GNU General Public License 3](LICENSE)
